@@ -43,5 +43,5 @@ o.colorcolumn = '80'
 --cmd("colorscheme onedark")
 --cmd("colorscheme darcula")
 --cmd("colorscheme vscode")
-g.material_style = "darker"
-cmd("colorscheme material")
+--g.material_style = "darker"
+--cmd("colorscheme material")
