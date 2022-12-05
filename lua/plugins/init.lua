@@ -78,16 +78,16 @@ return require('packer').startup {
     use 'marko-cerovac/material.nvim'
     use 'Mofiqul/vscode.nvim'
     use 'sainnhe/sonokai'
+    use "tiagovla/tokyodark.nvim"
+    use "mhartington/oceanic-next"
+    use "navarasu/onedark.nvim"
+    use "dracula/vim"
     use {
       'tanvirtin/monokai.nvim',
       config = function()
         require('plugins.monokai')
       end
     }
-    use "tiagovla/tokyodark.nvim"
-    use "mhartington/oceanic-next"
-    use "navarasu/onedark.nvim"
-    use "dracula/vim"
 
     use {
       'nvim-lualine/lualine.nvim',

@@ -8,7 +8,10 @@ local hl = function(thing, opts)
 end
 
 g.mapleader = ','
-o.shell = '/bin/bash'
+g.netrw_liststyle = 3
+g.netrw_browse_split = 3
+--o.shell = '/bin/bash'
+o.shell = '/bin/zsh'
 o.cursorline = true
 o.termguicolors = true
 o.clipboard = 'unnamedplus'
@@ -43,5 +46,7 @@ o.colorcolumn = '80'
 --cmd("colorscheme onedark")
 --cmd("colorscheme darcula")
 --cmd("colorscheme vscode")
+cmd("colorscheme monokai_pro")
+--cmd("colorscheme sonokai")
 --g.material_style = "darker"
 --cmd("colorscheme material")
