@@ -82,12 +82,12 @@ return require('packer').startup {
     use "mhartington/oceanic-next"
     use "navarasu/onedark.nvim"
     use "dracula/vim"
-    use {
-      'tanvirtin/monokai.nvim',
-      config = function()
-        require('plugins.monokai')
-      end
-    }
+   -- use {
+   --   'tanvirtin/monokai.nvim',
+   --   config = function()
+   --     require('plugins.monokai')
+   --   end
+   -- }
 
     use {
       'nvim-lualine/lualine.nvim',

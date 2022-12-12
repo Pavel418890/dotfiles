@@ -46,7 +46,7 @@ o.colorcolumn = '80'
 --cmd("colorscheme onedark")
 --cmd("colorscheme darcula")
 --cmd("colorscheme vscode")
-cmd("colorscheme monokai_pro")
+--cmd("colorscheme monokai_pro")
 --cmd("colorscheme sonokai")
---g.material_style = "darker"
---cmd("colorscheme material")
+g.material_style = "darker"
+cmd("colorscheme material")
